@@ -60,3 +60,8 @@ a:hover{
     background-position: 0% 50%;
   }
 }
+@media screen and (max-width: 800px){
+  *{
+    width: 100%;
+  }
+}
