@@ -1,16 +1,18 @@
 *{
-  margin: auto;
   padding: 0;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   letter-spacing: 2px;
-  max-width: 1000px;
-  width: 80%;
 }
 body{
   background-image: linear-gradient(135deg,#f95a57,#fa9542,#fce05b,#c5e262,#6bb8ec,
   #c861de,#fb75b6);
-    background-size: 500%;
+  background-size: 500%;
     animation: faniamado 10s infinite;
+}
+.contenedor
+{
+  width: 100%;
+  max-width: 2000px;
 }
 .profile-picture{
   display: block;
@@ -32,7 +34,6 @@ body{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  
 
   border-radius: 40px;
 
@@ -58,5 +59,16 @@ a:hover{
   }
   100%{
     background-position: 0% 50%;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .links{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px){
+  .contenedor{
+    width: 100%;
   }
 }
